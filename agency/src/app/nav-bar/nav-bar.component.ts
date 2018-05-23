@@ -12,6 +12,10 @@ export class NavBarComponent implements OnInit {
    }
 
   ngOnInit() {
+  	
   }
 
+ showPopUp(){ 
+   $('#aboutWindow').css('display','block');
+  } 
 }

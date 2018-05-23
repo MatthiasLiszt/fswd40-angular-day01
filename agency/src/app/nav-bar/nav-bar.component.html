@@ -10,7 +10,7 @@
        <div id="navbar" class="collapse navbar-collapse">
            <ul class="nav navbar-nav">
                <li><a routerLink ="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
-               <li><a routerLink ="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" onclick="$('#aboutWindow').css('left','16vw');">About</a></li>
+               <li><a routerLink ="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="showPopUp()">About</a></li>
 
            </ul>
        </div>
