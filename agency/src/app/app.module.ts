@@ -14,7 +14,7 @@ const appRoutes: Routes = [
 },
 {
   path: 'about', component: AboutComponent
-},
+}
 ];
 
 @NgModule({
