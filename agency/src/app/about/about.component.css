@@ -19,3 +19,7 @@
 .closeX:hover{
  cursor:  pointer;	
 }
+
+@media (max-width: 520px){
+	#aboutWindow{ font-size: 0.2em; }
+};
