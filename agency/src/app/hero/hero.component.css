@@ -1,0 +1,16 @@
+.hero-image{
+	background: url('https://www.fuessen.de/fileadmin/Bilder/3._Rad_Wandern_Winter_Wasser/grosse_Bilder_1600x900/winter-wintergenuss-spass-im-schnee.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-shadow: 2px 2px #000;
+}
+
+.btn {
+	background: transparent;
+	border: 3px solid #071e4a;
+}
