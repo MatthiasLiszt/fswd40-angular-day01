@@ -1,6 +1,9 @@
 #myNavbar li{
  margin-left: 2em;
- font-weight: bold;
- 	
+ font-weight: bold;	
+}
+
+.navbar-brand img {
+	height: 100%;
 }
 
