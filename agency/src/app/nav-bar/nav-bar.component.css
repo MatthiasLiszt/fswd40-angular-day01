@@ -3,7 +3,29 @@
  font-weight: bold;	
 }
 
-.navbar-brand img {
-	height: 100%;
+.navbar-header img {
+	height: 47px;
+	margin-right: 20px;
 }
 
+
+.navbar {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #e13740;
+}
+
+.navbar-nav li a {
+	color: #fff;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 5px 20px;
+}
+
+.navbar-nav {
+	margin-top: 10px;
+}
+
+.navbar-nav li a:hover, .active, .navbar-nav li a:focus{
+	background: #e13740;
+}
