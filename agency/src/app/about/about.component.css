@@ -1,0 +1,11 @@
+#aboutWindow{
+ position: fixed;
+ padding: 2em;
+
+ top: 9vh;
+ left: -32vw;
+ 
+ background-color:  lightblue;
+ border: solid black 3px;
+ border-radius: 9%;
+}
