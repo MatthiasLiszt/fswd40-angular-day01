@@ -7,6 +7,16 @@ import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeroComponent } from './hero/hero.component';
 
+import { RouterModule, Routes } from '@angular/router';
+const appRoutes: Routes = [
+{
+  path: '', component: HomeComponent
+},
+{
+  path: 'about', component: AboutComponent
+},
+];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +26,7 @@ import { HeroComponent } from './hero/hero.component';
     HeroComponent
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule
   ],
   providers: [],
