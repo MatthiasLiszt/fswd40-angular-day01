@@ -1,0 +1,27 @@
+.why {
+	background: linear-gradient( rgba(18, 69, 98, 0.70),
+    rgba(18, 69, 98, 0.70) ), url('../../assets/img/hero.jpg') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.why i {
+	color: #fff;
+	font-size: 3em;
+	border: 1px solid #fff;
+	border-radius: 500px;
+	padding: 20px;
+	margin: 10px 0;
+}
+
+.why h2 {
+	color: #fff;
+}
+
+.why h1 {
+	color: #fff;
+	margin: 70px 0;
+	border-bottom: 3px solid #e13740;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
