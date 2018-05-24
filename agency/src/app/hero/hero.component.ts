@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent implements OnInit {
-	private heroHeading: string;
-	private heroText: string;
-	private heroBtnText: string;
-	private heroBtnUrl: string;
+	public heroHeading: string;
+	public heroText: string;
+	public heroBtnText: string;
+	public heroBtnUrl: string;
 
   constructor() {
   	this.heroHeading = "We are your ultimate Winter experience Provider";

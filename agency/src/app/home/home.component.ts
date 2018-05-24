@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-	private homeHeading: string;
-	private homeCol1H: string;
-	private homeCol2H: string;
-	private homeCol3H: string;
-	private homeCol4H: string;
+	public homeHeading: string;
+	public homeCol1H: string;
+	public homeCol2H: string;
+	public homeCol3H: string;
+	public homeCol4H: string;
 
   constructor() {
   	this.homeHeading = "Why we are the best";
