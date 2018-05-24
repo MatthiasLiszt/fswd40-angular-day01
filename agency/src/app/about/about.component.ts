@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  public myWindow: string;
+  public showIt: boolean;  
+
+  constructor() { 
+    this.myWindow="block";
+    this.showIt=true;
+  }
 
   ngOnInit() {
   }
 
+  removePopUp(){
+   this.myWindow="none";
+   this.showIt=false;
+   //alert('popup clicked');
+  }
 }

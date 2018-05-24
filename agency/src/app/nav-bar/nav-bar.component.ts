@@ -16,6 +16,6 @@ export class NavBarComponent implements OnInit {
   }
 
  showPopUp(){ 
-   $('#aboutWindow').css('display','block');
+   
   } 
 }

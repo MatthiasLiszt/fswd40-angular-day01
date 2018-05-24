@@ -8,7 +8,15 @@
  background-color:  lightblue;
  border: solid black 3px;
  border-radius: 9%;
- display:  none;
+ 
+}
+
+.visible{
+ display: block;	
+}
+
+.invisible{
+ display: none;	
 }
 
 .closeX{
